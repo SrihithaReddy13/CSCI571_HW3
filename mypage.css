@@ -36,7 +36,7 @@ html,body
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
 .header a.logo {
-  padding: 20px 0px 0px 80px;
+  padding: 20px 0px 20px 80px;
   color: #af9453;
 }
 
@@ -81,7 +81,6 @@ a:visited {
 /* Centered text */
 .first_text {
   padding-top: 200px;
-  overflow-y: auto;
   color: white;
   font-size: 40px;
   width: 500px; 
