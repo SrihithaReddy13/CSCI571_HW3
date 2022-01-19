@@ -10,6 +10,7 @@ html,body
 .container{
   width: 1000px;
   align-content: center;
+  height: 100vh;
 }
 
 /* Style the header with a grey background and some padding */
@@ -173,12 +174,11 @@ a:visited {
 
 .part4{
   margin: 50px 50px 50px 50px;
-  background: url("images/last.png") no-repeat center center fixed;;
+  background: url("images/last.png") no-repeat;
   height: 500px;
   width: 90%;
-  background-size: cover;
-  background-position: 0px -300px;
-  scrollbar-width: none;
+  background-attachment: fixed;
+  background-position-y: bottom -500px;
 }
 
 .gallery{
