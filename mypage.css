@@ -153,10 +153,10 @@ a:visited {
 }
 
 .quote{
-  font-size: 80px;
+  font-size: 60px;
   height: 75px;
   text-align: center;
-  font-family: serif;
+  font-family: "Rozha One", serif;
 }
 
 .testimonial{
@@ -168,10 +168,10 @@ a:visited {
   margin: auto;
   text-align: center;
   color: black;
-  font-size: 20px;
-  width: 375px;
+  font-size: 25px;
+  width: 425px;
   letter-spacing: 3px;
-  line-height: 30px;
+  line-height: 40px;
 }
 
 .names{
