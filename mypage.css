@@ -71,11 +71,11 @@ a:visited {
 /*image 3*/
 .part1{
   background-image: url("images/first.png");
-  height: 600px;
+  height: 550px;
   width: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: 0px -450px;
+  background-position: -100px -500px;
   scrollbar-width: none;
 }
 
@@ -149,7 +149,14 @@ a:visited {
 
 .part3{
   height: 200px;
-  margin:  75px 275px 50px 275px;
+  margin:  50px 275px 125px 275px;
+}
+
+.quote{
+  font-size: 80px;
+  height: 75px;
+  text-align: center;
+  font-family: serif;
 }
 
 .testimonial{
@@ -162,15 +169,19 @@ a:visited {
   text-align: center;
   color: black;
   font-size: 20px;
-  letter-spacing: 5px;
+  width: 375px;
+  letter-spacing: 3px;
+  line-height: 30px;
 }
 
 .names{
   color: #af9453 ;
   font-family: sans-serif;
   font-size: 10px;
-  margin: 50px;
+  letter-spacing: 0.5px;
+  margin: 30px;
   text-align: center;
+  font-weight: bold;
 }
 
 .part4{
